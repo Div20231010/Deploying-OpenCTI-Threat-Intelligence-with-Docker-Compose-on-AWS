@@ -23,8 +23,6 @@
 ### Storage
 - Attached an Amazon EBS volume (50GB) for persistent storage.
 
----
-
 ## 🖥️ System Preparation
 
 Update packages:
