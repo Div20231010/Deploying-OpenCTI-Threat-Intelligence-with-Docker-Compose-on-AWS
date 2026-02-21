@@ -1,12 +1,11 @@
 # Deploying-OpenCTI-Threat-Intelligence-with-Docker-Compose-on-AWS
 On this repository I designed and deployed OpenCTI, a modern threat intelligence platform, on AWS EC2 using Docker Compose, enabling real-time ingestion of external threat feeds for cybersecurity analysis.
 
+### Objective: Deploy [OpenCTI](https://www.opencti.io/), a threat intelligence platform, on AWS EC2 using Docker Compose.  
+### Key Skills: Cloud provisioning, Docker containerization, application deployment, networking, and security.  
+#### Outcome: A fully functional OpenCTI instance hosted on AWS, accessible via web browser, integrated with AlienVault OTX for live threat intelligence feeds.
+
 ```markdown
-
-Objective: Deploy [OpenCTI](https://www.opencti.io/), a threat intelligence platform, on AWS EC2 using Docker Compose.  
-Key Skills: Cloud provisioning, Docker containerization, application deployment, networking, and security.  
-Outcome: A fully functional OpenCTI instance hosted on AWS, accessible via web browser, integrated with AlienVault OTX for live threat intelligence feeds.
-
 ## ⚙️ AWS Setup
 
 ### Instance Creation
