@@ -17,10 +17,7 @@ Perfect — you’ve already got a detailed write‑up of your deployment steps.
 
 ### Instance Creation
 - Provisioned an **Ubuntu EC2 instance** using AWS AMI.
-![Choose-instance](https://github.com/Div20231010/Deploying-OpenCTI-Threat-Intelligence-with-Docker-Compose-on-AWS/blob/main/1st_os_choose.png)
-
 - Selected **t3.large** instance type for sufficient memory and CPU resources.
-![Select T3.large-instance](https://github.com/Div20231010/Deploying-OpenCTI-Threat-Intelligence-with-Docker-Compose-on-AWS/blob/main/2nd_instance_selection.png)
 
 
 ### Networking
@@ -32,7 +29,6 @@ Perfect — you’ve already got a detailed write‑up of your deployment steps.
 
 ### Storage
 - Attached an **Amazon EBS volume (50GB)** for persistent storage.
-![Modify-the-volume](https://github.com/Div20231010/Deploying-OpenCTI-Threat-Intelligence-with-Docker-Compose-on-AWS/blob/main/selected_volume_adjust_80gb.png)
 
 ---
 
@@ -42,6 +38,11 @@ Update packages:
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
+
+![Choose instance](https://github.com/Div20231010/Deploying-OpenCTI-Threat-Intelligence-with-Docker-Compose-on-AWS/blob/main/1st_os_choose.png)
+![Choose-instance-type](https://github.com/Div20231010/Deploying-OpenCTI-Threat-Intelligence-with-Docker-Compose-on-AWS/blob/main/2nd_instance_selection.png)
+![Configure-security-group](https://github.com/Div20231010/Deploying-OpenCTI-Threat-Intelligence-with-Docker-Compose-on-AWS/blob/main/security_group_firewall.png)
+![Modify-the-volume](https://github.com/Div20231010/Deploying-OpenCTI-Threat-Intelligence-with-Docker-Compose-on-AWS/blob/main/selected_volume_adjust_80gb.png)
 
 Install Docker & Docker Compose:
 ```bash
@@ -76,7 +77,7 @@ Access via browser:
 ```
 http://<EC2-Public-IP>:8080
 ```
-
+![OpenCTI UI via browser](https://github.com/Div20231010/Deploying-OpenCTI-Threat-Intelligence-with-Docker-Compose-on-AWS/blob/main/opencti_launched.png)
 Login using admin email/password set in `.env`.
 
 ![Login-Using credentials-from .env files](https://github.com/Div20231010/Deploying-OpenCTI-Threat-Intelligence-with-Docker-Compose-on-AWS/blob/main/signed-in.png)
