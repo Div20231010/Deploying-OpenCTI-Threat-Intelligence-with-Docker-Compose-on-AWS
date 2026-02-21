@@ -100,6 +100,8 @@ alienvault:
   api_key: <your-otx-api-key>
 ```
 ![config.yml-file](https://github.com/Div20231010/Deploying-OpenCTI-Threat-Intelligence-with-Docker-Compose-on-AWS/blob/main/yml_file_configured.png)
+
+### Make sure to also edit docker-compose.yml file using the same API key and openCTI token as you did with the config.yml file above else it won't work.
 Run connector:
 ```bash
 docker-compose down
