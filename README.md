@@ -5,6 +5,8 @@
 #### Key Skills: Cloud provisioning, Docker containerization, application deployment, networking, and security.  
 ##### Outcome: A fully functional OpenCTI instance hosted on AWS, accessible via web browser, integrated with AlienVault OTX for live threat intelligence feeds.
 
+## This Project was carried out using the Pay as you go (Subscription) Model
+
 ```markdown
 ## ⚙️ AWS Setup
 
