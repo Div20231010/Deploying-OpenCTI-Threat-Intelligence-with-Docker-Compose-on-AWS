@@ -59,7 +59,7 @@ Edit `.env` file to configure **admin credentials and tokens**.
 ![.env-file](https://github.com/Div20231010/Deploying-OpenCTI-Threat-Intelligence-with-Docker-Compose-on-AWS/blob/main/modify_the_changeME.png)
 
 Launch OpenCTI:
-```bash
+```
 sudo docker-compose up -d
 sudo docker ps
 ```
