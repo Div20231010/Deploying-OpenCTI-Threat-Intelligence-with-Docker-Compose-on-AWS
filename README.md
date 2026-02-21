@@ -1,17 +1,11 @@
 # Deploying-OpenCTI-Threat-Intelligence-with-Docker-Compose-on-AWS
 On this repository I designed and deployed OpenCTI, a modern threat intelligence platform, on AWS EC2 using Docker Compose, enabling real-time ingestion of external threat feeds for cybersecurity analysis.
 
-Perfect — you’ve already got a detailed write‑up of your deployment steps. To make this GitHub‑ready, you’ll want to structure it into a **README.md** file with clear sections, concise formatting, and code snippets. Here’s a polished version you can drop straight into your repository:
-
 ```markdown
-# Deploying OpenCTI Threat Intelligence with Docker Compose on AWS
 
-## 📌 Project Overview
-**Objective:** Deploy [OpenCTI](https://www.opencti.io/), a threat intelligence platform, on AWS EC2 using Docker Compose.  
-**Key Skills:** Cloud provisioning, Docker containerization, application deployment, networking, and security.  
-**Outcome:** A fully functional OpenCTI instance hosted on AWS, accessible via web browser, integrated with AlienVault OTX for live threat intelligence feeds.
-
----
+Objective: Deploy [OpenCTI](https://www.opencti.io/), a threat intelligence platform, on AWS EC2 using Docker Compose.  
+Key Skills: Cloud provisioning, Docker containerization, application deployment, networking, and security.  
+Outcome: A fully functional OpenCTI instance hosted on AWS, accessible via web browser, integrated with AlienVault OTX for live threat intelligence feeds.
 
 ## ⚙️ AWS Setup
 
@@ -21,14 +15,14 @@ Perfect — you’ve already got a detailed write‑up of your deployment steps.
 
 
 ### Networking
-- Configured **VPC and security groups**.
+- Configured VPC and security groups.
 - Allowed inbound rules:
-  - **TCP 22** → SSH access (restricted to my IP).
-  - **TCP 8080** → OpenCTI web UI.
-  - **TCP 443** → HTTPS (future SSL/Nginx setup).
+  - TCP 22 → SSH access (restricted to my IP).
+  - TCP 8080 → OpenCTI web UI.
+  - TCP 443 → HTTPS (future SSL/Nginx setup).
 
 ### Storage
-- Attached an **Amazon EBS volume (50GB)** for persistent storage.
+- Attached an Amazon EBS volume (50GB) for persistent storage.
 
 ---
 
